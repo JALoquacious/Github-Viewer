@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css?family=Kelly+Slab');
+body {
+    font-family: 'Kelly Slab', cursive;
+    text-align: center;
+    margin: auto;
+}
+img {
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 250px;
+    height: 250px;
+}
+select {
+    border-radius: 3px;
+}
+table {
+    margin: 1em auto;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+tbody > tr:hover {
+    background-color: #9fff8e;
+}
+td {
+    padding: .5em;
+}
+.link-padding {
+    padding: 1em;
+}
+.login {
+    margin: 0em;
+}
+.repo {
+    margin: 2em;
+}
+.tr-odd {
+    background-color: #fbff8e;
+}
+.tr-even {
+    background-color: #f4d198;
+}
+#sort-order {
+    margin: 1em 0 1em 0;
+}
