@@ -1,0 +1,13 @@
+<h2>{{repo.name}}</h2>
+
+<div>
+    Issues: {{repo.open_issues_count}}
+</div>
+
+<div ng-repeat="user in repo.contributors" class="repo">
+    <img src="{{user.avatar_url}}" alt="{{user.login}}">
+    <p class="login">{{user.login}}</p>
+</div>
+
+<a href="#/main" class="link-padding">Back to Search</a>
+<a href="#/user/{{repo.owner.login}}" class="link-padding">Back to {{repo.owner.login}}</a>
